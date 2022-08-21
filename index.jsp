@@ -7,8 +7,7 @@
 
 <body>
   <% double num = Math.random(); %>
-  <% int num = (int) (num * 100); %>
-  <% String numAsString = Integer.toString(num); %>
+  <% String numAsString = Integer.toString((int) (num * 100)); %>
   <p> Your random number is: <%= numAsString %> </p>
 </body>
 
