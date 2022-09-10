@@ -14,7 +14,9 @@
   <div class="box infographic">
     <p><span>Your OS:</span> <%= System.getProperty("os.name") %> </p>
     <p><span>Your CPUS:</span> <%= Runtime.getRuntime().availableProcessors() %> </p>
+    <p><span>Your Memory:</span> <%= Runtime.getRuntime().maxMemory() / 1024 / 1024 %> MB </p>
     <p><span>Your Java version:</span> <%= System.getProperty("java.version") %> </p>
+    <p><span>Your user:</span> <%= System.getProperty("user.name") %> </p>
   </div>
 </body>
 
