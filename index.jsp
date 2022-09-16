@@ -36,7 +36,7 @@
 
   .title {
     color: #ffffff;
-    text-shadow: 0px 2px 4px rgb(223, 152, 0);
+    text-shadow: 0px 2px 4px rgb(0, 15, 223);
   }
 
   p {
@@ -47,7 +47,7 @@
   span {
     font-weight: bold;
     color: white;
-    text-shadow: 0px 1px 2px rgb(223, 152, 0);
+    text-shadow: 0px 1px 2px rgb(19, 223, 0);
   }
 
   h2 {
